@@ -4,7 +4,9 @@
 
 int main()
 {
+	Enemy nanashi;
 
+	nanashi.ShowStatus();
 
 	system("pause");
 	return 0;
