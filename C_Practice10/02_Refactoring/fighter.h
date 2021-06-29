@@ -8,7 +8,7 @@ public:
 	Fighter();
 	~Fighter();
 
-	char Name[32];
+	char name[32];
 	int hp;
 	int str;
 	int mag;
