@@ -1,19 +1,18 @@
-#include "fighter.h"
+#include "unit.h"
 
 Fighter::Fighter()
-	:hp(1)
-	, str(1)
-	, mag(1)
-	, tec(1)
-	, spd(1)
-	, def(1)
-	, luc(1)
-	, mde(1)
+	:status()
 {
 	name[0] = '\0';
 }
 
 Fighter::~Fighter()
 {
+
+}
+
+void Fighter::InitRandomStatus()
+{
+	status.hp = rand() % 20 + 1;
 
 }
